@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background: #F0F0F0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+width: 53%;
+height: 85%;
+background: #FFFFFF;
+display:grid;
+grid-template-columns: 1fr 2fr;
+}
+.wrapper__menu {
+    background: #FCFBFC;
+    border: 1px solid #F0F0F0;
+    display: flex;
+}
+h1 {
+    font-size: 40px;
+    margin: 8% auto;
+}
