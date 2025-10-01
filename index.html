@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <div class="wrapper">
+<div class="wrapper__menu"><h1>Мои Заметки</h1>
+    <button class = "btn-addnewnote">Новая Заметка</button>
+    <h2>Теги</h2>
+    <h3 class="tag" data-tag="Все">Все</h3>
+<h3 class="tag" data-tag="Идеи">Идеи</h3>
+<h3 class="tag" data-tag="Личное">Личное</h3>
+<h3 class="tag" data-tag="Работа">Работа</h3>
+<h3 class="tag" data-tag="Список покупок">Список покупок</h3>
+</div>
+
+<div class="wrapper__content">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Поиск">
+      <button class="btn-search">🔍</button>
+    </div>
+    <div class="notes-list"></div>
+  </div>
+    </div>
+</body>
+</html>
